@@ -32,11 +32,9 @@
 <p>利用 SciTE 編輯器類解譯 ANSI C 程式</p>
 <p>下載<a href="https://bellard.org/tcc/並解壓縮">https://bellard.org/tcc/</a>並解壓縮到Y:</p>
 <p>然後修改start.bat新增</p>
-<p><span style="color: #993300;"><strong><code class="js plain">set path_portablegit=%Disk%:\Portablegit\bin;</code></strong></span></p>
-<p><span style="color: #993300;"><strong><code class="js plain">set path_julia=%Disk%:\julia-1.5.2\bin;</code></strong></span></p>
-<p><span style="color: #993300;"><strong><code class="js plain">set path_tcc=%Disk%:\tcc\;</code></strong></span></p>
+<p>set path_git=%Disk%:\Portablegit\bin;<br/>set path_julia=%Disk%:\julia-1.5.2\bin;<br/>set path_tcc=%Disk%:\tcc\;</p>
 <p><span style="color: #993300;"><strong> </strong></span></p>
-<p><span style="color: #993300;"><strong><code class="js plain">path=%Disk%:;%path_python%;%path_portablegit%;%path_julia%;%path_tcc%;%path%;</code></strong></span></p>
+<p>path=%Disk%:;%path_python%;%path_portablegit%;%path_julia%;%path_tcc%;%path%;</p>
 <p><span>然後stop.bat再start.bat</span><br/><code class="js plain"></code></p>
 <div class="line number5 index4 alt2"><code class="js plain"><img alt="" height="825" src="/images/Screenshot 2020-11-06 152214.png" width="978"/></code></div>
 <p><span style="color: #000000;">出現這些表示搜尋路徑已經再 y:\tcc</span></p>
